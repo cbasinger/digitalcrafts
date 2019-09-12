@@ -1,0 +1,6 @@
+mv: moves or renames a file
+file 1: object you are moving or renaming
+file 2: what you are moving file or renaming file TO
+
+cp: copies file to a second file (creates a second file)
+
