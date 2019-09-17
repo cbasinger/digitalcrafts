@@ -3,3 +3,15 @@
 // times as the input number
 //
 // Name the function "finalFunction"
+
+
+
+
+
+function finalFunction() {
+var newArray = [];
+for (let i=0; i == num; i++){
+newArray.push)}
+return newArray
+}
+console.log(finalFunction(3))

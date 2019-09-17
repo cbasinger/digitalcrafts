@@ -8,9 +8,9 @@ function lvl4exercise2 () {
 return false
 }
 
-function lvl4exercise3 (bool) {
+function lvl4exercise3(bool) {
   // Return the opposite of the input boolean value
-
+bool = true
 return (bool)= !true;
 }
 
@@ -28,3 +28,5 @@ function lvl4exercise6 (bool1, bool2) {
 
 return bool1 ==bool2;
 }
+
+console.log(lvl4exercise3(bool))
