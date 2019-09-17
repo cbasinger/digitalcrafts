@@ -15,8 +15,6 @@ return true}
  return false
 }
 
-
-
 var drink= function(age) {
 if(age >= 21){
 return true}
@@ -26,11 +24,10 @@ else{
 
 var rent= function(age) {
 if(age >= 25){
-return true;}
-else{
+return true }
+else
 return false
-}}
-
+}
 
 var play= function(age) {
 if(age < 10){
