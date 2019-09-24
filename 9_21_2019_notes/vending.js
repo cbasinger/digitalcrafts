@@ -56,38 +56,29 @@ var displaySnacks = function (items) {
     for(var i=0; i<items.length; i++) {
         var menuItem = items[i];
         console.log(menuItem.name + ' $' + menuItem.price) 
-     }
+    }
 };
 displaySnacks(snacks);
-
-
 
 var steveMoney= [dollar, quarter, nickel, dime];
 var steveTotal= steveMoney.reduce((a, b) => a + b, 0)
 
-
-    var kevinMoney= [quarter, nickel, dime, dollar];
+var kevinMoney= [quarter, nickel, dime, dollar];
 var kevinTotal= kevinMoney.reduce((a,b) => a + b, 0)
-
 
 var sarahMoney= [dime, dime, nickel, quarter, quarter, dollar];
 var sarahTotal= sarahMoney.reduce((a,b) => a + b, 0)
 
-
 var anneMoney= [dollar, dollar];
 var anneTotal= anneMoney.reduce((a,b) => a + b, 0)
-
 
 var willMoney= [quarter, quarter, quarter, dime, dime, nickel ];
 var willTotal= willMoney.reduce((a,b) => a + b, 0)
 
 
-
-
-
 var vending = function(item, money) { //"item" is the unknown, aka what the person is trying to buy
     if (item == null) {
-        console.log("Your money, $",money, "will be returned.")
+        console.log("Your money, $" + money + "will be returned.")
     } else
     for (var i=0; i<snacks.length; i++) {
         var selection = snacks[i];  //creating variable that pulls information from snacks array above
@@ -103,8 +94,8 @@ var vending = function(item, money) { //"item" is the unknown, aka what the pers
     }
 }
 
-//vending("Snickers", steveTotal)
+vending("Snickers", steveTotal)
 vending("Cup Noodles", willTotal)
 //vending("Nuts ", anneTotal)
 //vending("Cookies", kevinTotal)
-//vending("Chewing Gum", sarahTotal)
+vending("Chewing Gum", sarahTotal)
